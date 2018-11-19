@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="c2cwebsiteModelStoreContainer" CdmEntityContainer="c2cwebsiteEntities">
+    <EntitySetMapping Name="capdoes">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.capdo">
+        <MappingFragment StoreEntitySet="capdo">
+          <ScalarProperty Name="capdo_id" ColumnName="capdo_id" />
+          <ScalarProperty Name="tencapdo" ColumnName="tencapdo" />
+          <ScalarProperty Name="muckhuyenmaiquangcao" ColumnName="muckhuyenmaiquangcao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customers">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="salt" ColumnName="salt" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="ngaydangky" ColumnName="ngaydangky" />
+          <ScalarProperty Name="tienao" ColumnName="tienao" />
+          <ScalarProperty Name="tinhtrangkichhoat" ColumnName="tinhtrangkichhoat" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+          <ScalarProperty Name="sodienthoai" ColumnName="sodienthoai" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="ismechant" ColumnName="ismechant" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hangsanphams">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.hangsanpham">
+        <MappingFragment StoreEntitySet="hangsanpham">
+          <ScalarProperty Name="hangsanpham_id" ColumnName="hangsanpham_id" />
+          <ScalarProperty Name="tenhangsanpham" ColumnName="tenhangsanpham" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hinhanhs">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.hinhanh">
+        <MappingFragment StoreEntitySet="hinhanh">
+          <ScalarProperty Name="hinhanh_id" ColumnName="hinhanh_id" />
+          <ScalarProperty Name="noidunghinhanh" ColumnName="noidunghinhanh" />
+          <ScalarProperty Name="sanpham_id" ColumnName="sanpham_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hinhthucthanhtoans">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.hinhthucthanhtoan">
+        <MappingFragment StoreEntitySet="hinhthucthanhtoan">
+          <ScalarProperty Name="hinhthucthanhtoan_id" ColumnName="hinhthucthanhtoan_id" />
+          <ScalarProperty Name="tenhinhthucthanhtoan" ColumnName="tenhinhthucthanhtoan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hoadonbans">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.hoadonban">
+        <MappingFragment StoreEntitySet="hoadonban">
+          <ScalarProperty Name="hoadonban_id" ColumnName="hoadonban_id" />
+          <ScalarProperty Name="ngaytao" ColumnName="ngaytao" />
+          <ScalarProperty Name="ngayhoanthanh" ColumnName="ngayhoanthanh" />
+          <ScalarProperty Name="noigui" ColumnName="noigui" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="thanhtien" ColumnName="thanhtien" />
+          <ScalarProperty Name="sanpham_id" ColumnName="sanpham_id" />
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="hinhthucthanhtoan_id" ColumnName="hinhthucthanhtoan_id" />
+          <ScalarProperty Name="tinhtranggiaohang_id" ColumnName="tinhtranggiaohang_id" />
+          <ScalarProperty Name="hoadonmua_id" ColumnName="hoadonmua_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hoadonmuas">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.hoadonmua">
+        <MappingFragment StoreEntitySet="hoadonmua">
+          <ScalarProperty Name="hoadonmua_id" ColumnName="hoadonmua_id" />
+          <ScalarProperty Name="noinhan" ColumnName="noinhan" />
+          <ScalarProperty Name="sosanpham" ColumnName="sosanpham" />
+          <ScalarProperty Name="ngaytao" ColumnName="ngaytao" />
+          <ScalarProperty Name="tongtien" ColumnName="tongtien" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+          <ScalarProperty Name="hinhthucthanhtoan_id" ColumnName="hinhthucthanhtoan_id" />
+          <ScalarProperty Name="tinhtranggiaohang_id" ColumnName="tinhtranggiaohang_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khuyenmais">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.khuyenmai">
+        <MappingFragment StoreEntitySet="khuyenmai">
+          <ScalarProperty Name="khuyenmai_id" ColumnName="khuyenmai_id" />
+          <ScalarProperty Name="tenkhuyenmai" ColumnName="tenkhuyenmai" />
+          <ScalarProperty Name="ngaybatdau" ColumnName="ngaybatdau" />
+          <ScalarProperty Name="ngayketthuc" ColumnName="ngayketthuc" />
+          <ScalarProperty Name="muckhuyenmaitoida" ColumnName="muckhuyenmaitoida" />
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="khuyenmaihethongs">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.khuyenmaihethong">
+        <MappingFragment StoreEntitySet="khuyenmaihethong">
+          <ScalarProperty Name="khuyenmaihethong_id" ColumnName="khuyenmaihethong_id" />
+          <ScalarProperty Name="tenkhuyenmaihethong" ColumnName="tenkhuyenmaihethong" />
+          <ScalarProperty Name="ngaybatdau" ColumnName="ngaybatdau" />
+          <ScalarProperty Name="ngayketthuc" ColumnName="ngayketthuc" />
+          <ScalarProperty Name="muckhuyenmaitoida" ColumnName="muckhuyenmaitoida" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="loaisanphams">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.loaisanpham">
+        <MappingFragment StoreEntitySet="loaisanpham">
+          <ScalarProperty Name="loaisanpham_id" ColumnName="loaisanpham_id" />
+          <ScalarProperty Name="tenloaisanpham" ColumnName="tenloaisanpham" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="mausacs">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.mausac">
+        <MappingFragment StoreEntitySet="mausac">
+          <ScalarProperty Name="mausac_id" ColumnName="mausac_id" />
+          <ScalarProperty Name="tenmausac" ColumnName="tenmausac" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="merchants">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.merchant">
+        <MappingFragment StoreEntitySet="merchant">
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="cmnd" ColumnName="cmnd" />
+          <ScalarProperty Name="tenshop" ColumnName="tenshop" />
+          <ScalarProperty Name="anhshop" ColumnName="anhshop" />
+          <ScalarProperty Name="diemdanhgia" ColumnName="diemdanhgia" />
+          <ScalarProperty Name="ngaydangky" ColumnName="ngaydangky" />
+          <ScalarProperty Name="taikhoanpaypal" ColumnName="taikhoanpaypal" />
+          <ScalarProperty Name="capdo_id" ColumnName="capdo_id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sanphams">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.sanpham">
+        <MappingFragment StoreEntitySet="sanpham">
+          <ScalarProperty Name="sanpham_id" ColumnName="sanpham_id" />
+          <ScalarProperty Name="tensanpham" ColumnName="tensanpham" />
+          <ScalarProperty Name="tongsoluongton" ColumnName="tongsoluongton" />
+          <ScalarProperty Name="mota" ColumnName="mota" />
+          <ScalarProperty Name="gia" ColumnName="gia" />
+          <ScalarProperty Name="ngaydang" ColumnName="ngaydang" />
+          <ScalarProperty Name="tinhtrangduyet" ColumnName="tinhtrangduyet" />
+          <ScalarProperty Name="hinhanh" ColumnName="hinhanh" />
+          <ScalarProperty Name="tinhtrangkhoa" ColumnName="tinhtrangkhoa" />
+          <ScalarProperty Name="hangsanpham_id" ColumnName="hangsanpham_id" />
+          <ScalarProperty Name="loaisanpham_id" ColumnName="loaisanpham_id" />
+          <ScalarProperty Name="tinhtrangton_id" ColumnName="tinhtrangton_id" />
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sanpham_khuyenmai">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.sanpham_khuyenmai">
+        <MappingFragment StoreEntitySet="sanpham_khuyenmai">
+          <ScalarProperty Name="sanpham_id" ColumnName="sanpham_id" />
+          <ScalarProperty Name="khuyenmai_id" ColumnName="khuyenmai_id" />
+          <ScalarProperty Name="muckhuyenmai" ColumnName="muckhuyenmai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sanpham_khuyenmaihethong">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.sanpham_khuyenmaihethong">
+        <MappingFragment StoreEntitySet="sanpham_khuyenmaihethong">
+          <ScalarProperty Name="sanpham_id" ColumnName="sanpham_id" />
+          <ScalarProperty Name="khuyenmaihethong_id" ColumnName="khuyenmaihethong_id" />
+          <ScalarProperty Name="muckhuyenmai" ColumnName="muckhuyenmai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sanpham_mausac">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.sanpham_mausac">
+        <MappingFragment StoreEntitySet="sanpham_mausac">
+          <ScalarProperty Name="sanpham_id" ColumnName="sanpham_id" />
+          <ScalarProperty Name="mausac_id" ColumnName="mausac_id" />
+          <ScalarProperty Name="soluongton" ColumnName="soluongton" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sanpham_thongsokythuat">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.sanpham_thongsokythuat">
+        <MappingFragment StoreEntitySet="sanpham_thongsokythuat">
+          <ScalarProperty Name="sanpham_id" ColumnName="sanpham_id" />
+          <ScalarProperty Name="thongsokythuat_id" ColumnName="thongsokythuat_id" />
+          <ScalarProperty Name="giatri" ColumnName="giatri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="thongsokythuats">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.thongsokythuat">
+        <MappingFragment StoreEntitySet="thongsokythuat">
+          <ScalarProperty Name="thongsokythuat_id" ColumnName="thongsokythuat_id" />
+          <ScalarProperty Name="tenthongsokythuat" ColumnName="tenthongsokythuat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tinhtranggiaohangs">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.tinhtranggiaohang">
+        <MappingFragment StoreEntitySet="tinhtranggiaohang">
+          <ScalarProperty Name="tinhtranggiaohang_id" ColumnName="tinhtranggiaohang_id" />
+          <ScalarProperty Name="tentinhtranggiaohang" ColumnName="tentinhtranggiaohang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tinhtrangtons">
+      <EntityTypeMapping TypeName="c2cwebsiteModel.tinhtrangton">
+        <MappingFragment StoreEntitySet="tinhtrangton">
+          <ScalarProperty Name="tinhtrangton_id" ColumnName="tinhtrangton_id" />
+          <ScalarProperty Name="tentinhtrangton" ColumnName="tentinhtrangton" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="loaisanpham_hangsanpham" TypeName="c2cwebsiteModel.loaisanpham_hangsanpham" StoreEntitySet="loaisanpham_hangsanpham">
+      <EndProperty Name="hangsanpham">
+        <ScalarProperty Name="hangsanpham_id" ColumnName="hangsanpham_id" />
+      </EndProperty>
+      <EndProperty Name="loaisanpham">
+        <ScalarProperty Name="loaisanpham_id" ColumnName="loaisanpham_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

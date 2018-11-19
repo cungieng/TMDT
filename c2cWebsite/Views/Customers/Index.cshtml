@@ -1,0 +1,106 @@
+﻿@model IEnumerable<c2cWebsite.Models.customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.salt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ngaydangky)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tienao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tinhtrangkichhoat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hoten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ngaysinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sodienthoai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gioitinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.diachi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ismechant)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.username)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.salt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ngaydangky)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tienao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tinhtrangkichhoat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hoten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ngaysinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sodienthoai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gioitinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.diachi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ismechant)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.customer_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.customer_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.customer_id })
+        </td>
+    </tr>
+}
+
+</table>

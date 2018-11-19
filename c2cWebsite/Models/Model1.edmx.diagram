@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7c06bf954ff743de80c298598f3b0361" Name="Diagram1">
+        <EntityTypeShape EntityType="c2cwebsiteModel.capdo" Width="1.5" PointX="3.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.customer" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.hangsanpham" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.hinhanh" Width="1.5" PointX="10.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.hinhthucthanhtoan" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.hoadonban" Width="1.5" PointX="11.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.hoadonmua" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.khuyenmai" Width="1.5" PointX="8.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.khuyenmaihethong" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.loaisanpham" Width="1.5" PointX="6" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.mausac" Width="1.5" PointX="11.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.merchant" Width="1.5" PointX="6" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.sanpham" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.sanpham_khuyenmai" Width="1.5" PointX="13.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.sanpham_khuyenmaihethong" Width="1.5" PointX="10.5" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.sanpham_mausac" Width="1.5" PointX="13.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.sanpham_thongsokythuat" Width="1.5" PointX="13.5" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.thongsokythuat" Width="1.5" PointX="11.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.tinhtranggiaohang" Width="1.5" PointX="0.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="c2cwebsiteModel.tinhtrangton" Width="1.5" PointX="6" PointY="14.625" IsExpanded="true" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__merchant__capdo___403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonmua__custo__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__merchant__custom__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__sanpham__hangsan__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hinhanh__sanpham__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonban__hinht__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonmua__hinht__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonban__hoado__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonban__merch__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonban__sanph__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonban__tinht__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__hoadonmua__tinht__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__khuyenmai__merch__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_khuyenmai_khuyenmaiID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_khuyenmaihethong_khuyenmaihethongID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__sanpham__loaisan__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_mausac_mausacID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_merchant_merchantID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK__sanpham__tinhtra__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_khuyenmai_sanphamID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_khuyenmaihethong_sanphamID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_mausac_sanphamID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_thongsokythuat_sanphamID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.FK_sanpham_thongsokythuat_thongsokythuatID" ManuallyRouted="false" />
+        <AssociationConnector Association="c2cwebsiteModel.loaisanpham_hangsanpham" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

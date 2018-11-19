@@ -1,0 +1,70 @@
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\c2cWebsite.dll.config
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\c2cWebsite.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\c2cWebsite.pdb
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\Antlr3.Runtime.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\EntityFramework.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\EntityFramework.SqlServer.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\Newtonsoft.Json.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Helpers.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Mvc.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Optimization.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Razor.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\WebGrease.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\EntityFramework.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\EntityFramework.SqlServer.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Helpers.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Mvc.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Optimization.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.Razor.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\Antlr3.Runtime.pdb
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\Newtonsoft.Json.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.csprojResolveAssemblyReference.cache
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.pdb
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\PagedList.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\PagedList.Mvc.dll
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\PagedList.xml
+C:\Users\Lap\Documents\Visual Studio 2013\Projects\c2cWebsite\c2cWebsite\bin\PagedList.Mvc.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\c2cWebsite.dll.config
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\c2cWebsite.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\c2cWebsite.pdb
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\Antlr3.Runtime.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\EntityFramework.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\Newtonsoft.Json.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\PagedList.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\PagedList.Mvc.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Helpers.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Mvc.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Optimization.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Razor.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Razor.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\WebGrease.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\EntityFramework.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\PagedList.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\PagedList.Mvc.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Helpers.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Mvc.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Optimization.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.Razor.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\System.Web.WebPages.Razor.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\Antlr3.Runtime.pdb
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\bin\Newtonsoft.Json.xml
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.csprojAssemblyReference.cache
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.csproj.CopyComplete
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.dll
+C:\Users\ADMIN\Downloads\c2cWebsite\c2cWebsite\obj\Debug\c2cWebsite.pdb
